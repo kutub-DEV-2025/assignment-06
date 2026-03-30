@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Resume Builder",
+    "description": "Create professional resumes effortlessly.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Cloud Storage Pro",
+    "description": "Securely store and share your files online.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["1TB storage", "Auto backup", "File sharing"],
+    "icon": "☁️"
+  },
+  {
+    "id": 3,
+    "name": "Marketing Analytics",
+    "description": "Track your campaigns with detailed analytics.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Real-time analytics", "Custom dashboards", "Email reports"],
+    "icon": "📊"
+  },
+  {
+    "id": 4,
+    "name": "Social Media Scheduler",
+    "description": "Plan and schedule posts for multiple platforms.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Multi-platform support", "Auto-publish", "Content calendar"],
+    "icon": "📅"
+  },
+  {
+    "id": 5,
+    "name": "E-commerce Builder",
+    "description": "Launch your online store in minutes.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag & drop editor", "Payment integration", "SEO ready"],
+    "icon": "🛒"
+  },
+  {
+    "id": 6,
+    "name": "Video Editor Pro",
+    "description": "Edit videos like a pro without complexity.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["HD export", "Transitions & effects", "Stock library"],
+    "icon": "🎬"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Tool",
+    "description": "Send newsletters & automated campaigns.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Email templates", "A/B testing", "Analytics dashboard"],
+    "icon": "✉️"
+  },
+  {
+    "id": 8,
+    "name": "Project Management Suite",
+    "description": "Manage projects, teams, and tasks efficiently.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Task tracking", "Team collaboration", "Reports & charts"],
+    "icon": "🗂️"
+  }
+]

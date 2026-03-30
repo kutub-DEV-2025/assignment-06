@@ -1,0 +1,30 @@
+
+const Navbar = ({ cartCount }) => {
+  return (
+    <div className="flex justify-between items-center px-10 py-4 bg-white shadow-sm">
+      <h1 className="text-xl font-bold text-[#4f39f6]">DigiTools</h1>
+
+      <ul className="hidden md:flex gap-6 text-sm text-gray-600">
+        <li>Products</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>FAQ</li>
+      </ul>
+
+      <div className="flex items-center gap-4">
+        <button className="bg-purple-600 text-white px-4 py-1 rounded-full text-sm">
+          Get Started
+        </button>
+
+        <div className="relative text-xl">
+          🛒
+          <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs px-1 rounded-full">
+            {cartCount}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Navbar;
