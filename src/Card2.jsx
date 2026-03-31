@@ -11,7 +11,6 @@ const Card2 = () => {
         Choose the plan that fits your needs. Upgrade or downgrade anytime.
       </p>
 
-      
       <div className="grid md:grid-cols-3 gap-6 mt-10">
         
        
@@ -36,29 +35,33 @@ const Card2 = () => {
         </div>
 
         
-        <div className="text-center shadow p-6 rounded-2xl bg-gradient-to-r from-purple-600 to-indigo-500 text-white hover:shadow-xl transition">
-          <h2 className="text-xl font-semibold mb-2">Pro</h2>
-          <p>Best for professionals</p>
+        <div className="relative text-center shadow p-6 rounded-2xl bg-gradient-to-r from-purple-600 to-indigo-500 text-white hover:shadow-xl transition">
+  
+  {/* Badge */}
+  <button className="absolute top-4 left-1/2 -translate-x-1/2 flex items-center justify-center text-[#bb4d00] bg-[#fef3c6] rounded-xl px-3 py-1 text-sm font-medium">
+    Most Popular
+  </button>
 
-          <h1 className="mt-2">
-            <span className="font-bold text-2xl">$29</span>/month
-          </h1>
+  <h2 className="text-xl font-semibold mb-2 mt-6">Pro</h2>
+  <p>Best for professionals</p>
 
-          <ul className="text-sm mt-3 space-y-1 text-left">
-            <li>✔ Access to all premium tools</li>
-            <li>✔ Unlimited templates</li>
-            <li>✔ Priority support</li>
-            <li>✔ Unlimited projects</li>
-            <li>✔ Cloud sync</li>
-            <li>✔ Advanced analytics</li>
-          </ul>
+  <h1 className="mt-2">
+    <span className="font-bold text-2xl">$29</span>/month
+  </h1>
 
-          
-          <button className="bg-white text-purple-600 w-full mt-5 py-2 rounded-full font-medium hover:bg-gray-100 transition">
-            Get Started Free
-          </button>
-        </div>
+  <ul className="text-sm mt-3 space-y-1 text-left">
+    <li>✔ Access to all premium tools</li>
+    <li>✔ Unlimited templates</li>
+    <li>✔ Priority support</li>
+    <li>✔ Unlimited projects</li>
+    <li>✔ Cloud sync</li>
+    <li>✔ Advanced analytics</li>
+  </ul>
 
+  <button className="bg-white text-purple-600 w-full mt-5 py-2 rounded-full font-medium hover:bg-gray-100 transition">
+    Get Started Free
+  </button>
+</div>
        
         <div className="text-center shadow bg-gray-100 p-6 rounded-2xl hover:shadow-xl transition">
           <h2 className="text-xl font-semibold mb-2">Enterprise</h2>

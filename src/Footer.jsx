@@ -59,9 +59,10 @@ const Footer = () => {
 
       </div>
 
-      <div className="border-t border-gray-700 mt-10 pt-5 text-center text-gray-500 text-sm">
-        © 2026 DigiTools. All rights reserved.
+      <div className="border-t border-gray-700 mt-10 pt-5 text-center text-gray-500 text-sm flex justify-between">
+        <p>© 2026 DigiTools. All rights reserved. </p> <p>Privacy Policy           Terms of Service           Cookies</p>
       </div>
+
     </div>
   );
 };
