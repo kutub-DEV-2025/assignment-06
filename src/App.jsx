@@ -4,6 +4,7 @@ import Banner from "./Banner";
 import Stats from "./Stats";
 import ToggleSection from "./ToggleSection";
 import Card from "./Card";
+import Card2 from "./Card2";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -27,7 +28,8 @@ function App() {
         clearCart={clearCart}
       />
 
-      <Card /> 
+      <Card />
+      <Card2 />
 
       <ToastContainer />
     </>
