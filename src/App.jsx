@@ -7,6 +7,7 @@ import Card from "./Card";
 import Card2 from "./Card2";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Workflow from "./Workflow";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -30,6 +31,7 @@ function App() {
 
       <Card />
       <Card2 />
+      <Workflow/>
 
       <ToastContainer />
     </>

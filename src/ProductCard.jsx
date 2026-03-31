@@ -4,13 +4,7 @@ const ProductCard = ({ product, addToCart }) => {
   return (
     <div className="bg-white p-6 rounded-2xl border hover:shadow-xl transition duration-300">
 
-      
-      {product.badge && (
-        <span className="absolute right-6 top-6 bg-purple-100 text-purple-600 text-xs px-3 py-1 rounded-full">
-          {product.badge}
-        </span>
-      )}
-
+    
       
       <div className="w-12 h-12 flex items-center justify-center bg-gray-100 rounded-full text-xl">
         {product.icon}

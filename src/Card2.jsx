@@ -3,7 +3,7 @@ import React from "react";
 const Card2 = () => {
   return (
     <div className="max-w-6xl mx-auto p-6">
-      {/* Heading */}
+      
       <h1 className="text-3xl font-bold text-center mb-4">
         Simple, Transparent Pricing
       </h1>
@@ -11,10 +11,10 @@ const Card2 = () => {
         Choose the plan that fits your needs. Upgrade or downgrade anytime.
       </p>
 
-      {/* Cards */}
+      
       <div className="grid md:grid-cols-3 gap-6 mt-10">
         
-        {/* Starter */}
+       
         <div className="text-center shadow bg-gray-100 p-6 rounded-2xl hover:shadow-xl transition">
           <h2 className="text-xl font-semibold mb-2">Starter</h2>
           <p className="text-[#627382]">Perfect for getting started</p>
@@ -35,7 +35,7 @@ const Card2 = () => {
           </button>
         </div>
 
-        {/* Pro */}
+        
         <div className="text-center shadow p-6 rounded-2xl bg-gradient-to-r from-purple-600 to-indigo-500 text-white hover:shadow-xl transition">
           <h2 className="text-xl font-semibold mb-2">Pro</h2>
           <p>Best for professionals</p>
@@ -53,13 +53,13 @@ const Card2 = () => {
             <li>✔ Advanced analytics</li>
           </ul>
 
-          {/* Fixed button */}
+          
           <button className="bg-white text-purple-600 w-full mt-5 py-2 rounded-full font-medium hover:bg-gray-100 transition">
             Get Started Free
           </button>
         </div>
 
-        {/* Enterprise */}
+       
         <div className="text-center shadow bg-gray-100 p-6 rounded-2xl hover:shadow-xl transition">
           <h2 className="text-xl font-semibold mb-2">Enterprise</h2>
           <p className="text-[#627382]">For teams and businesses</p>
