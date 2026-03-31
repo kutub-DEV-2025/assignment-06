@@ -2,7 +2,9 @@
 const Navbar = ({ cartCount }) => {
   return (
     <div className="flex justify-between items-center px-10 py-4 bg-white shadow-sm">
-      <h1 className="text-xl font-bold text-[#4f39f6]">DigiTools</h1>
+      <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+  DigiTools
+</h1>
 
       <ul className="hidden md:flex gap-6 text-sm text-gray-600">
         <li>Products</li>
@@ -12,9 +14,7 @@ const Navbar = ({ cartCount }) => {
       </ul>
 
       <div className="flex items-center gap-4">
-        <button className="bg-purple-600 text-white px-4 py-1 rounded-full text-sm">
-          Get Started
-        </button>
+        
 
         <div className="relative text-xl">
           🛒
@@ -22,6 +22,9 @@ const Navbar = ({ cartCount }) => {
             {cartCount}
           </span>
         </div>
+        <button className="bg-purple-600 text-white px-4 py-1 rounded-full text-sm">
+          Get Started
+        </button>
       </div>
     </div>
   );

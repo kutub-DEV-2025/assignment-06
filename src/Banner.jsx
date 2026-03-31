@@ -1,3 +1,4 @@
+
 const Banner = () => {
   return (
     <div className="px-10 py-16 flex flex-col md:flex-row items-center justify-between bg-gray-50">
@@ -12,22 +13,23 @@ const Banner = () => {
         </h1>
 
         <p className="text-gray-500 mt-4">
-          Access premium tools & boost productivity.
+          Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products
+
         </p>
 
         <div className="mt-6 flex gap-4">
           <button className="bg-purple-600 text-white px-6 py-2 rounded-full">
-            Explore
+            Explore Products
           </button>
 
           <button className="border border-purple-600 text-purple-600 px-6 py-2 rounded-full">
-            Demo
+            Watch Demo
           </button>
         </div>
       </div>
 
       <img
-        src="https://i.ibb.co/0jqHpnp/ai-hand.png"
+        src=""
         className="w-80 mt-10"
       />
     </div>
