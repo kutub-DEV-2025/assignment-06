@@ -24,7 +24,7 @@ const Banner = () => {
           </button>
 
           <button className="border border-purple-600 text-purple-600 px-6 py-2 rounded-full flex justify-center items-center ">
-            <img src="../public/Play.png" alt="" />Watch Demo
+            <img src="/Play.png" alt="" />Watch Demo
           </button>
         </div>
       </div>
