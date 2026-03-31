@@ -2,7 +2,7 @@
 const Navbar = ({ cartCount }) => {
   return (
     <div className="flex justify-between items-center px-10 py-4 bg-white shadow-sm">
-      <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+      <h1 className="text-2xl font-extrabold bg-gradient-to-r from-purple-600 to-indigo-500 bg-clip-text text-transparent">
   DigiTools
 </h1>
 
