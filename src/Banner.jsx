@@ -1,3 +1,4 @@
+import bannerImg from "../public/banner.png";
 
 const Banner = () => {
   return (
@@ -13,8 +14,8 @@ const Banner = () => {
         </h1>
 
         <p className="text-gray-500 mt-4">
-          Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.Explore Products
-
+          Access premium AI tools, design assets, templates, and productivity software—all in one place.
+          Start creating faster today.
         </p>
 
         <div className="mt-6 flex gap-4">
@@ -29,8 +30,9 @@ const Banner = () => {
       </div>
 
       <img
-        src=""
-        className="w-80 mt-10"
+        src={bannerImg}
+        className="w-80 mt-10 md:mt-0"
+        alt="Banner"
       />
     </div>
   );
